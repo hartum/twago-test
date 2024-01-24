@@ -1,7 +1,9 @@
+window.onload = (event) => {
   // Example usage
   drawContainer(310, 200, 4);
   // drawContainer(413, 42, 30);
   // drawContainer(200, 300, 2);
+}
    
  function drawContainer(containerSize, childSize, numberOfChildren) {
     const container = document.getElementById("mainSquare");
